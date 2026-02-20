@@ -34,4 +34,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add .
           git commit -m "add build via workflow"
-          git subtree push --prefix dist gh-pages
+          git subtree push --prefix dist origin gh-pages
