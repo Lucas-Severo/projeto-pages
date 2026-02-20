@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import NotFound from '../views/NotFound.vue'
 
 const router = createRouter({
-  history: createWebHistory('https://lucas-severo.github.io/projeto-pages' || import.meta.env.BASE_URL),
+  history: createWebHistory('/projeto-pages' || import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
