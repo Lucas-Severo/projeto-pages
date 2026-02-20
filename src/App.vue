@@ -13,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About changed</RouterLink>
+        <RouterLink to="/:pathMatch(.*)*">NotFound</RouterLink>
       </nav>
     </div>
   </header>
