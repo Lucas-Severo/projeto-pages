@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import NotFound from '../views/NotFound.vue'
 
 const router = createRouter({
-  history: createWebHistory('/projeto-pages'),
+  history: createWebHistory('projeto-pages'),
   routes: [
     {
       path: '/',
